@@ -17,12 +17,10 @@
     />
 
     <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/release/v5.3.1/css/all.css"
-      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    <script
+      src="https://kit.fontawesome.com/c019bbc101.js"
       crossorigin="anonymous"
-    />
+    ></script>
 
     <!-- estilo customizado -->
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
@@ -71,11 +69,47 @@
     </header>
 
     <!-- início da sessão -->
-    <section id="Home">
+    <section id="home">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">texto</div>
-          <div class="col-md-6">img</div>
+          <div class="col-md-6 d-flex">
+            <!-- textos da sessão home início -->
+            <div class="align-self-center">
+              <h1 class="display-4">Suas contas, descomplicadas</h1>
+              <p>
+                Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta
+                online que vai facilitar sua vida financeira.
+              </p>
+              <form class="mt-4 mb-4">
+                <div class="input-group input-group-lg">
+                  <input
+                    type="text"
+                    placeholder="Seu e-mail"
+                    class="form-control"
+                  />
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-primary">
+                      Cadastre-se
+                    </button>
+                  </div>
+                </div>
+              </form>
+
+              <p>
+                Disponível para
+                <a href="" class="btn btn-outline-light">
+                  <i class="fab fa-android fa-lg"></i>
+                </a>
+                <a href="" class="btn btn-outline-light">
+                  <i class="fa-brands fa-apple"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+          <!-- textos da sessão home FIM -->
+          <div class="col-md-6 d-none d-md-block">
+            <img src="img/capa-mulher.png" />
+          </div>
         </div>
       </div>
     </section>
